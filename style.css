@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff20;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #605C58;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
