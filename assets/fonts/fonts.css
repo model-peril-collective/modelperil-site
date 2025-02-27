@@ -1,0 +1,175 @@
+/**
+*  Libre Baskerville
+*/
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('./librebaskerville/librebaskerville-regular.woff2') format('woff2'),
+        url('./librebaskerville/librebaskerville-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('./librebaskerville/librebaskerville-bold.woff2') format('woff2'),
+        url('./librebaskerville/librebaskerville-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('./librebaskerville/librebaskerville-italic.woff2') format('woff2'),
+        url('./librebaskerville/librebaskerville-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/**
+*  Mondia
+*/
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondia-webfont.woff') format(woff),
+        url('./mondia/mondia-webfont.woff') format(woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiablack-webfont.woff') format(woff),
+        url('./mondia/mondiablack-webfont.woff') format(woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiablackitalic-webfont.woff') format(woff),
+        url('./mondia/mondiablackitalic-webfont.woff') format(woff2);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiabold-webfont.woff') format(woff),
+        url('./mondia/mondiabold-webfont.woff') format(woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiabolditalic-webfont.woff') format(woff),
+        url('./mondia/mondiabolditalic-webfont.woff') format(woff2);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiaextrablack-webfont.woff') format(woff),
+        url('./mondia/mondiaextrablack-webfont.woff') format(woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiaextrablackitalic-webfont.woff') format(woff),
+        url('./mondia/mondiaextrablackitalic-webfont.woff') format(woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiaextrabold-webfont.woff') format(woff),
+        url('./mondia/mondiaextrabold-webfont.woff') format(woff2);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiaextrabolditalic-webfont.woff') format(woff),
+        url('./mondia/mondiaextrabolditalic-webfont.woff') format(woff2);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiafat-webfont.woff') format(woff),
+        url('./mondia/mondiafat-webfont.woff') format(woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiafatitalic-webfont.woff') format(woff),
+        url('./mondia/mondiafatitalic-webfont.woff') format(woff2);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiaitalic-webfont.woff') format(woff),
+        url('./mondia/mondiafat-webfont.woff') format(woff2);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondialight-webfont.woff') format(woff),
+        url('./mondia/mondialight-webfont.woff') format(woff2);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondialightitalic-webfont.woff') format(woff),
+        url('./mondia/mondialightitalic-webfont.woff') format(woff2);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiamedium-webfont.woff') format(woff),
+        url('./mondia/mondiamedium-webfont.woff') format(woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiamediumitalic-webfont.woff') format(woff),
+        url('./mondia/mondiamediumitalic-webfont.woff') format(woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiathin-webfont.woff') format(woff),
+        url('./mondia/mondiamedium-webfont.woff') format(woff2);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mondia';
+    src: url('./mondia/mondiathinitalic-webfont.woff') format(woff),
+        url('./mondia/mondiamediumitalic-webfont.woff') format(woff2);
+    font-weight: 100;
+    font-style: italic;
+}
