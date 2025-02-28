@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Session</title>
+    <link rel="stylesheet" href="../style.css">
+    </title>
 </head>
 <body>
-    <h1>test</h1>
+    <div class="book-text">
+        <h1>Book your session!</h1>
+        <p>Please send us some details on what you're looking for!</p>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="1eca3e10-84f8-4cfc-ad77-08d7e20a1625">
+
+        <label for="artist-name">Artist/Group Name</label>
+        <input type="text" id="artist-name" name="artist-name" required>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required
+            placeholder="Number of songs you want to play in a session">
+
+        <label for="song-num">Number of Songs</label>
+        <input type="text" id="song-num" name="song-num" required>
+
+        <label for="inst-num">Max Number of Instruments</label>
+        <input type="text" id="inst-num" name="inst-num" required>
+
+        <label for="thoughts">Any thoughts?</label>
+        <textarea id="thoughts" name="thoughts" rows="4"
+            placeholder=""></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>

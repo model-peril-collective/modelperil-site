@@ -156,3 +156,9 @@ ul.right-links {
 .nav .next.hide {
     display: none;
 }
+
+/* Book session page */
+form {
+    display: flex;
+    flex-direction: column;
+}
